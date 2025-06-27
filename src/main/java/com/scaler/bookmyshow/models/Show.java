@@ -9,7 +9,7 @@ import java.util.List;
 
 @Getter
 @Setter
-@Entity
+@Entity(name = "showTable")
 public class Show extends BaseModel {
     private String name;
     private Date startTime;
